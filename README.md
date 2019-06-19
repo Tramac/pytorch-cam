@@ -14,7 +14,7 @@ $ pip install torchcam
 - Install from source
 
 ```
-$ pip install --upgrade git+https://github.com/Tramac/torchcam.git
+$ pip install --upgrade git+https://github.com/Tramac/pytorch-cam.git
 ```
 
 ## Usage
