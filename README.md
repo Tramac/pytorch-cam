@@ -70,6 +70,3 @@ cam = getCAM(model, img, input, target, layer_path=['xxx']) # The end backprop l
 ## Reference
 
 - [tensorwatch](https://github.com/microsoft/tensorwatch)
-
-# pytorch-cam
-Class Activation Map Visualizations on PyTorch
