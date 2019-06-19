@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # PyTorch-CAM
 This project provide a script of class activation map (CAM) visualizations, which can be used for explaining predictions and model interpretability, etc.
 
@@ -70,3 +71,7 @@ cam = getCAM(model, img, input, target, layer_path=['xxx']) # The end backprop l
 ## Reference
 
 - [tensorwatch](https://github.com/microsoft/tensorwatch)
+=======
+# pytorch-cam
+Class Activation Map Visualizations on PyTorch
+>>>>>>> eea1b057b4c9d00309431d22bad4b6c52c0f0b26
