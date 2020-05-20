@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name="torchcam",
@@ -6,5 +6,5 @@ setup(
     description="CAM in PyTorch",
     url="https://github.com/Tramac/pytorch-cam",
     author="Tramac",
-    packages=["torchcam"],
+    packages=find_packages(),
 )

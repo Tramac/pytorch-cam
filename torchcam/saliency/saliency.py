@@ -56,7 +56,7 @@ def get_image_saliency_result(model, raw_image, input, label,
     return result
 
 
-def get_image_saliency_plot(image_saliency_results, cols: int = 2, figsize: tuple = None, display=True, save=False):
+def get_image_saliency_plot(image_saliency_results, cols: int = 2, figsize: tuple = None, display=True, save_path=False):
     rows = math.ceil(len(image_saliency_results) / cols)
     figsize = figsize or (8, 3 * rows)
     figure = plt.figure(figsize=figsize)
@@ -76,7 +76,7 @@ def get_image_saliency_plot(image_saliency_results, cols: int = 2, figsize: tupl
     if display:
         figure.show()
         figure.waitforbuttonpress()
-    if save:
-        figure.savefig('result.png')
+    if save_path:
+        figure.savefig(save_path)
 
     return figure
